@@ -1,0 +1,81 @@
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+   
+
+:root{
+
+    --cor1 : #F6F4F3;
+    --cor2 : #276FBF;
+    --cor3 : #F72C25;
+
+}
+
+body{
+    height: 100vh;
+    background-color: var(--cor2);
+    margin: 0;
+    
+}
+.cabecalho{
+   
+    background: var(--cor1);
+    
+
+}
+
+
+
+
+.cadastro{
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--cor1);
+    padding: 50px;
+    color: var(--cor2);
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 1px #00000021;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+   
+    
+}
+
+input{
+    border: solid 1px #929191;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    
+    
+}
+ .cad{
+    background-color: var(--cor3);
+    color: var(--cor1);
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+    width: 50%;
+    background: #019201;
+   
+}
+.cad:hover{
+   
+   background: #019201;
+}
+.voltar{
+    background-color: var(--cor3);
+    color: var(--cor1);
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+    width: 45%;
+}
+.voltar:hover{
+   
+    background-color: #f72c25e3;
+}

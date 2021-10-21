@@ -1,0 +1,27 @@
+.btlog{
+    background-color: var(--cor3);
+    color: var(--cor1);
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+    width: 100%;
+   background-color: #019201; 
+}
+h5{
+    color: black;
+   
+}
+a{
+    text-decoration: none;
+    padding: 1px;
+    
+   
+}
+a:hover{
+    color: var(--cor2);
+    font-weight: bolder;
+}
+.lbl{
+    color: black;
+    font-size: 13px;
+}
